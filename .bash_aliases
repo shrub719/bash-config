@@ -9,6 +9,8 @@ alias gtree="git ls-files | tree -CF --fromfile"
 alias rc='nvim ~/.bash_aliases && source ~/.bashrc'
 alias gp="git add . && git commit -am 'upd8' && git push"
 
+alias empty="clear && cat > /dev/null"
+
 alias dog="echo ' ^
 / o\`--,
   /--'"
